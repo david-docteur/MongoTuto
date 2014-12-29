@@ -1,0 +1,342 @@
+#mongo-logo-header {
+	background: url(../img/mongo_logo_titre.png);
+	width: 45px;
+	height: 44px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 4px;
+}
+
+div.titreActu {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.active {
+   pointer-events: none;
+   cursor: default;
+}
+
+p {
+	margin: 0;
+}
+
+div.actu {
+	width: 600px;
+	height: auto;
+	background: #FFFFFF;
+	margin-bottom: 10px;
+	font-size: 14px;
+	padding: 5px;
+}
+
+a.navbar-brand {
+	color: #FFFFFF !important;
+}
+
+.jumbotron h2 {
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.titre {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.small-titre {
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+#footer {
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 190px;
+}
+
+#horizontalBar{
+	margin-left: 190px;
+}
+
+#footerIndex {
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.un-list {
+	font-weight: bold;
+}
+
+.spacer {
+	height: 1px;
+	margin-bottom: 40px;
+}
+
+.small-spacer {
+	height: 1px;
+	margin-bottom: 20px;
+}
+
+table {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+table th {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+#sqlToMongo, th, td{
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+table#contactTable tr td {
+	margin: auto;
+	border-style: none;
+}
+
+/* Conteneur des langages */
+div#tableauLangages {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+/* Block pour chaque langage */
+div.langage {
+	display: inline-block;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 10%;
+	color: grey;
+	font-weight: bold;
+	font-size: 30px;
+	margin: auto;
+}
+
+div.langage p {
+	font-size: 14px;
+}
+
+#toTop {
+		width: auto;
+        height: auto;
+        border:1px solid rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0.9);
+        text-align:center;
+        padding:5px;
+        position:fixed;
+        bottom:10px;
+        right:10px;
+        cursor:pointer;
+        display:none;
+        color: #FFFFFF;
+        font-family:verdana;
+        font-size:11px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        font-size: 32px;
+		border-radius: 7px;
+}
+
+#logosEntreprises td {
+	border: none;
+}
+
+.sousMenu {
+	display: block;
+	margin: auto;
+	text-align: left;
+	width: 500px;
+	height: auto;
+	padding-bottom: 1%;
+	margin-bottom: 50px;
+	border: 1px solid #000000;
+	box-shadow: 2px 2px 2px #888888;
+	font-size: 14px;
+}
+
+.sousMenu .plan {
+	padding: 2px;
+	background: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #000000;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.right {
+	margin-left: 20%;
+}
+
+.elem {
+	padding: 2px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.screenshot {
+	display: block;
+	text-align: center;
+ }
+ 
+ .screenshot img {
+	border: 1px solid #888888;
+	box-shadow: 2px 2px 2px #888888;
+ }
+ 
+ h6 {
+	text-align: center;
+ }
+
+#operationsCRUDTable {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#operationsCRUDTable td {
+	padding: 20px;
+	text-align: left;
+}
+
+.thumbnail {
+	height: 400px;
+	box-shadow: 1px 1px 1px #888888;
+	width: 280px;
+}
+
+.thumbnail img {
+	border-radius: 30px;
+}
+
+.thumbnail h3 {
+	font-size: 23px;
+}
+
+.thumbnail p {
+	color: #888888;
+}
+
+.centeredSection {
+	display: block;
+	width: 100px;
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+	background-color: #5AAC41;
+	border: 1px solid #402817;
+}
+
+.caract {
+	margin-left: 2%;
+}
+
+/**
+* For Announcement
+*/
+
+/*#middle {
+	display: block;
+	margin: auto;
+	width: 60%;
+	height: 580px;
+	border-radius: 7px;
+	margin-top: -40px;
+}
+
+#acc {
+	font-size: 26px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#second {
+	text-align: center;
+}
+
+#descri {
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 14px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	max-height: 250px;
+}
+
+#final {
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.list-group-item {
+	margin: auto;
+	width: 400px;
+	height: 40px;
+} */
+
+/**
+* End Announcement\
+*/
+
+#tableNews td{
+	border: none;
+}
+
+.news {
+	border: 1px dashed black;
+	width: 700px;
+	margin-bottom: 20px;
+	padding: 17px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+.number {
+	float: left;
+	font-weight: bold;
+}
+
+.dateNews {
+	float: right;
+	font-weight: bold;
+}
+
+.titreNews {
+	font-weight: bold;
+}
+
+.body {
+	margin-top: 10px;
+}
+
+.linkNews {
+	height: 20px;
+}
+
+
+.linkNews {
+	padding: 5px;
+}
+
+#messageForm {
+	resize: vertical;
+	min-height: 230px;
+	max-height: 500px;
+}
